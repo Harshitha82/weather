@@ -4,37 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Weather</title>
-<style>
-#search input{
-height:30px;width:300px;float:left;margin:20px;}
-#search1 input{
-height:30px;width:180px;float:right;margin:10px}
-#data1,data2{
-float:left;height:30px;width:250px;}
-#data2{
-color:blue;float:left;height:30px;width:300px;
-}
-#data3{
-float:right;width:30px;height:30px;padding:10px;}
-#data3a{
-float:right;width:120px;height:20px;padding:13px;}
-#data3b{
-float:right;width:95px;height:20px;margin:20px;padding:13px;}
-#data3c{
-float:right;width:67px;height:24px;margin:40px;padding:13px;}
-#data4{
-float:left;width:80px;height:2px;position:fixed;padding:20px;}
-#data5{
-float:left;width:95px;height:25px;margin:40px;}
-#data6{
-float:right;width:65px;height:10px;}
-#data7{
-float:left;width:10px;height:10px;}
-#data7a{
-float:left;width:300px;height:10px;}
-#data8{
-float:right;width:50px;height:20px;padding:10px;}
-</style>
+<link rel="stylesheet" href="w (2).css">
 </head>
 <body>
 <div>
@@ -61,9 +31,10 @@ float:right;width:50px;height:20px;padding:10px;}
 </div>
 <br>
 <div id="data4">
-<img src="C:\Users\admin\Desktop\weather\weather.png"/></div><br><h2 style="font-size:40px;">19ºC</h2><br><h5>Monday,16:00</h5>
-<img src="C:\Users\admin\Desktop\weather\cloudy (4).png"/><h1 style="font-size:15px;">MostlyCloudy</h1><br>
-<img src="C:\Users\admin\Desktop\weather\water-drop.png"/><h1 style="font-size:15px;">Rainy-30%</h1><br><div id="data7">
+<img src="C:\Users\admin\Desktop\weather\weather.png"/><br><h2 style="font-size:40px;">19ºC</h2><h5>Monday,<span style="color:gray;">16:00</h5>
+<p><img src="C:\Users\admin\Desktop\weather\cloudy (4).png"/>MostlyCloudy</p>
+<img src="C:\Users\admin\Desktop\weather\water-drop.png"/><h1 style="font-size:15px;">Rainy_30%</h1>
+<div id="data7">
 <img src="C:\Users\admin\Desktop\weather\mountain(2).png"/>
 </div>
 </div>
@@ -91,11 +62,35 @@ float:right;width:50px;height:20px;padding:10px;}
 <div id="data3c">
 <img src="C:\Users\admin\Desktop\weather\sun.png" alt="celsius"/><br><div id="data6">
 <h3>30º 6º</h3>
+<br>
+<br>
+<br>
+<br>
+<p>6:30</p>
+<br>
+<p>5:45PM</p>
 </div>
 </div>
 <div id="data3c">
 <img src="C:\Users\admin\Desktop\weather\rainy.png" alt="celsius"/><br><div id="data6">
 <h3>15º8º</h3>
+<br>
+<br>
+<div id="data9">
+<h2 style="font-size:12px;color:gray;">Sunrise_and_Sunset</h2>
+</div>
+<div id="data9"><img src="C:\Users\admin\Desktop\weather\sun.png" alt="celsius"/>
+</div>
+<br>
+<div id="data9"><img src="C:\Users\admin\Desktop\weather\sun.png" alt="celsius"/><br>
+<br>
+<br>
+<br>
+<br><br>
+<h2 style="font-size:12px;color:gray;">Air_Quality</h2>
+<h1>120</h1>
+<h2 style="font-size:12px;">Status:Bad <span style="color:red;">Quality</h2>
+</div>
 </div>
 </div>
 <div id="data3b">
@@ -111,6 +106,19 @@ float:right;width:50px;height:20px;padding:10px;}
 <div id="data3b">
 <img src="C:\Users\admin\Desktop\weather\cloudy(2).png" alt="celsius"/><br><div id="data6">
 <h3>15º8º</h3>
+<br>
+<br>
+<div id="data9">
+<h2 style="font-size:12px;color:gray;">Wind_Status</h2>
+</div>
+<br>
+<br>
+<h1 style="font-size:50px;">8.70km/h</h1>
+<h5>Bengaluru</h5>
+<br>
+<h2 style="font-size:12px;color:gray;">Visibility</h2>
+<h1>8.4Km/h</h1>
+<h2 style="font-size:12px;">Status:<span style="color:orange;">Average</h2>
 </div>
 </div>
 <div id="data3b">
@@ -122,10 +130,26 @@ float:right;width:50px;height:20px;padding:10px;}
 <img src="C:\Users\admin\Desktop\weather\cloudy.png" alt="celsius"/><br><div id="data6">
 <h3>18º4º</h3>
 </div>
-<br><>
+<br>
+<br>
 <div id="data8">
 <h2>Today_Highlights</h2>
-<p>UV</p>
 </div>
+<br>
+<br>
+<br>
+<br>
+<div id="data9">
+<h2 style="font-size:12px;color:gray;">UV_Index</h2>
+</div>
+<br>
+<br>
+<img src="C:\Users\admin\Desktop\weather\speed-grade.png"/>
+<br>
+<br>
+<br>
+<h2 style="font-size:12px;color:gray;">Humidity</h2>
+<h1>12%</h1>
+<h2 style="font-size:12px;">Status:<span style="color:blue;">Good_Quality</h2>
 </body>
 </html>
