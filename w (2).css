@@ -1,0 +1,31 @@
+#search input{
+height:30px;width:300px;float:left;margin:20px;}
+#search1 input{
+height:30px;width:180px;float:right;margin:10px}
+#data1,data2{
+float:left;height:30px;width:250px;}
+#data2{
+color:blue;float:left;height:30px;width:300px;
+}
+#data3{
+float:right;width:30px;height:30px;padding:10px;}
+#data3a{
+float:right;width:120px;height:30px;padding:20px;}
+#data3b{
+float:right;width:95px;height:20px;margin:20px;padding:13px;}
+#data3c{
+float:right;width:67px;height:24px;margin:40px;padding:13px;}
+#data4{
+float:left;width:10px;height:2px;position:fixed;padding:20px}
+#data5{
+float:left;width:95px;height:25px;margin:40px;}
+#data6{
+float:right;width:65px;height:10px;}
+#data7{
+float:left;width:10px;height:10px;}
+#data7a{
+float:left;width:300px;height:10px;}
+#data8{
+float:left;width:40px;height:20px;padding:10px;}
+#data9{
+float:left;width:100px;height:20px;padding:13px;}
